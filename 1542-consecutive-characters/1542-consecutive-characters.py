@@ -1,7 +1,7 @@
 class Solution(object):
     def maxPower(self, s):
         max_count = 1 
-        current_count = 1  
+        current_count = 1
 
         for i in range(1, len(s)):  
             if s[i] == s[i-1]:
