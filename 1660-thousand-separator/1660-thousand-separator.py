@@ -1,4 +1,4 @@
 class Solution:
     def thousandSeparator(self, n: int) -> str:
-        return f"{n:,}".replace(",",".")
-        
+        rep  = "{:,}".format(n)       
+        return rep.replace(",", ".")   
