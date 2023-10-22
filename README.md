@@ -1,1 +1,1 @@
-# Leet-sync
+# Leet-code
